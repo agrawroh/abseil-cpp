@@ -34,7 +34,7 @@
 #elif defined(ABSL_INTERNAL_HAVE_SYMBOLIZE_WIN32)
 // The Windows Symbolizer only works if PDB files containing the debug info
 // are available to the program at runtime.
-#include "absl/debugging/symbolize_win32.inc"
+#include "absl/debugging/symbolize_unimplemented.inc"
 #elif defined(__APPLE__)
 #include "absl/debugging/symbolize_darwin.inc"
 #elif defined(ABSL_INTERNAL_HAVE_SYMBOLIZE_WASM)

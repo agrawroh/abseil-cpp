@@ -40,7 +40,7 @@
 // Emscripten stacktraces rely on JS. Do not use them in standalone mode.
 #elif defined(__EMSCRIPTEN__) && !defined(STANDALONE_WASM)
 #define ABSL_STACKTRACE_INL_HEADER \
-  "absl/debugging/internal/stacktrace_emscripten-inl.inc"
+  "absl/debugging/internal/stacktrace_unimplemented-inl.inc"
 
 #elif defined(__ANDROID__) && __ANDROID_API__ >= 33
 
